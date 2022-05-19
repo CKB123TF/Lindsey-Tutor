@@ -389,7 +389,7 @@ function Landing() {
               </h2>
               <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
                 <a
-                  href={`https://www.tutortechy.com/custom-login/${id}`}
+                  href={`https://www.tutortechy.com/custom-student-login/${id}`}
                   className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
                 >
                   Get started
