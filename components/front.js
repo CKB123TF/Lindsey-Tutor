@@ -18,7 +18,7 @@ import {
   UsersIcon,
   XIcon,
 } from '@heroicons/react/outline'
-const id = 'google-oauth2|118378811726402337485'
+const id = 'ckb@tutortechy.com'
 
 const solutions = [
   {
