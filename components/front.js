@@ -18,7 +18,7 @@ import {
   UsersIcon,
   XIcon,
 } from '@heroicons/react/outline'
-const id = 'ckb@tutortechy.com'
+const id = 'fronk.lindsey@gmail.com'
 
 const solutions = [
   {
@@ -207,7 +207,7 @@ function Landing() {
                 </div>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                   <a
-                    href={`https://www.tutortechy.com/custom-login/${id}`}
+                    href={`https://www.tutortechy.com/studentsignup/${id}`}
                     className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
                   >
                     Sign in
@@ -283,7 +283,7 @@ function Landing() {
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
                       <a
-                        href={`https://www.tutortechy.com/custom-login/${id}`}
+                        href={`https://www.tutortechy.com/studentsignup/${id}`}
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"
                       >
                         Get started
@@ -310,27 +310,29 @@ function Landing() {
                       <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                         About Me
                     </h2>
-                      <p className="mt-4 text-lg text-red">
-                        I am highly successful educator with more than 10 years of professional teaching and related experience possessing excellent communication, leadership, analytical, counseling, and technical skills. I'm currently a Special Education teacher within the Penfield Central School District in New York.
+                      <p className="mt-4 text-lg">
+                      As a native to upstate New York, I received my undergraduate degree in secondary history and special education from Niagara University.  I attended the State University of New York at Geneseo for graduate school where I earned a master's in Literacy Education. I taught 6th and 7th-grade special education and social studies in Chapel Hill, North Carolina for five years before moving to Washington, DC. In DC, I was a  middle school learning Specialist at Sheridan School in Washington DC and a middle school social studies teacher at Alice Deal middle school. Currently, I am an 8th grade special education teacher in Penfield, NY.  <br></br>
+I have five years of individual and group tutoring experience, specializing in the areas of executive functioning, organizational skills, reading, and writing. <br></br>
+ I am excited to get to know you and your family in order to provide the best individualized service possible!                   
                     </p>
+                    <ol className="mt-4 text-lg">
+                      <lh>Education:</lh>
+                      <li>BA in Education from Niagara University</li>
+                      <li>MA in Education from State University of New York College at Geneseo</li>
+                    </ol>
                     </div>
                   </div>
-                  <div className="mt-8 border-t border-gray-200 pt-6">
+                  <div className="mt-8 border-t border-gray-600 pt-6">
                     <blockquote>
                       <div>
-                        <p className="text-base text-gray-500">
-                          "Lindsey is the best!" [Sample Student Review here]
+                        <p className="text-base text-gray-800">
+                          “Lindsey was our tutor for both of our middle school boys. She met consistently with them on a weekly basis and worked on strengthening their executive functioning and organizational skills. She was a great resource to help bridge the gap between home and school. She took the time to get to know our kids beyond school and created a warm and supportive relationship with our family. We loved working with her!”
                       </p>
                       </div>
                       <footer className="mt-3">
                         <div className="flex items-center space-x-3">
-                          <div className="flex-shrink-0">
-                            <div className="relative h-6 w-6 rounded-full"                            >
-                              <Image src='/images/Lindsey.jpg' layout="fill" />
-                            </div>
-                          </div>
-                          <div className="text-base font-medium text-gray-700">
-                            [Student First Name or Parent Name]
+                          <div className="text-base font-medium text-gray-900">
+                          Carrie K. Washington, DC
                         </div>
                         </div>
                       </footer>
@@ -387,7 +389,7 @@ function Landing() {
               </h2>
               <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
                 <a
-                  href={`http://localhost:3000/studentsignup/${id}`}
+                  href={`https://www.tutortechy.com/studentsignup/${id}`}
                   className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
                 >
                   Get started
